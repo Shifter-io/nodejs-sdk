@@ -1,0 +1,40 @@
+{
+  "name": "shifter-web-scraping",
+  "version": "1.0.13",
+  "description": "ShifterWebScrapingApi NodeJS SDK",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "default": "./src/index.mjs"
+    }
+  },
+  "module": "./src/index.mjs",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shifter-io/nodejs-scraping-sdk"
+  },
+  "keywords": [
+    "webscraping",
+    "shifter-web-scraping",
+    "webscrapingapi",
+    "nodejs",
+    "sdk",
+    "scrape",
+    "scraper",
+    "scraping",
+    "shifter"
+  ],
+  "author": "Shifter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shifter-io/nodejs-scraping-sdk/issues"
+  },
+  "homepage": "https://github.com/shifter-io/nodejs-scraping-sdk#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
